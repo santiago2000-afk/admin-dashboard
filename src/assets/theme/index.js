@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 /**
 =========================================================
 * Material Dashboard 2 React - v2.2.0

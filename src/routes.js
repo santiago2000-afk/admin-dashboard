@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 /**
 =========================================================
 * Material Dashboard 2 React - v2.2.0
@@ -36,7 +37,6 @@ Coded by www.creative-tim.com
 */
 
 // Material Dashboard 2 React layouts
-import Alumnos from "layouts/alumnos";
 import Tables from "layouts/tables";
 import Billing from "layouts/billing";
 import RTL from "layouts/rtl";
@@ -47,15 +47,16 @@ import SignUp from "layouts/authentication/sign-up";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
+import Dashboard from "layouts/dashboard";
 
 const routes = [
   {
     type: "collapse",
-    name: "Alumnos",
-    key: "Alumnos",
-    icon: <Icon fontSize="small">dashboard</Icon>,
-    route: "/Alumnos",
-    component: <Alumnos />,
+    name: "Dashboard",
+    key: "Dashboard",
+    icon: <Icon fontSize="small">home</Icon>,
+    route: "/dashboard",
+    component: <Dashboard />,
   },
   {
     type: "collapse",
